@@ -12,3 +12,12 @@ html,body {
   --gradient-color-3: #8C82FF;  
   --gradient-color-4: #EFAFFF;
 }
+h1 {
+  background: red;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
