@@ -26,7 +26,9 @@ h1 {
 img {
   z-index: 1; 
   position: fixed;
-  top: 20%;
+  top: 40%;
   left: 50%;
+  width: 360px;
+  height: 150px;
   transform: translate(-50%, -50%);
 }
