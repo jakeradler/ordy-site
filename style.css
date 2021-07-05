@@ -13,11 +13,11 @@ html,body {
   --gradient-color-4: #EFAFFF;
 }
 h1 {
-  background: red;
-  height: 100px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-
+  z-index: 1; 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  color: white;
+}
