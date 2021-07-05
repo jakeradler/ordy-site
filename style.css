@@ -34,3 +34,6 @@ img {
   height: 150px;
   transform: translate(-50%, -50%);
 }
+#container--waitlistapi {
+  z-index: 1;
+}
