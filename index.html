@@ -1,30 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Ordy</title>
-  <link rel="stylesheet" href="./style.css">
-  <style>
-    h1 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-  </style>
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-    <head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ordy</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      h1 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      div {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <html>
+      <head>
         <title>Ordy</title>
-    </head>
-    <body>
+      </head>
+      <body>
         <h1>Invest in Crypto Smarter.</h1>
-        <canvas id="gradient-canvas" data-js-darken-top data-transition-in></canvas>
-        <img src="outline2.png" alt="Outline-Ordy" width="500" height="600">   
-    </body>
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
+        <canvas
+          id="gradient-canvas"
+          data-js-darken-top
+          data-transition-in
+        ></canvas>
+        <img src="outline2.png" alt="Outline-Ordy" width="500" height="600" />
+        <div id="root"></div>
+        <style>
+          .container--waitlistapi {
+            margin: 0 auto;
+            z-index: 1;
+            position: fixed;
+            top: 80%;
+            left: 50%;
+            width: 360px;
+            height: 150px;
+          }
+        </style>
+        <script
+          src="https://unpkg.com/waitlistapi/dist/widget.js"
+          id="Waitlist-API-Script"
+          data-config="{
+		'name': 'w1', 
+		'api_key': '{SQSVRT}', 
+	  'waitlist_link': '{https://meetordy.com}',
+	  'config': {'targetElementId': 'root'}
+}"
+        ></script>
+      </body>
+    </html>
+    <!-- partial -->
+    <script src="./script.js"></script>
+  </body>
 </html>
