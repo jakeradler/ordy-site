@@ -20,8 +20,10 @@ h1 {
   transform: translate(-50%, -50%);
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 70px;
+  font-size: 8vh;
   font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
 }
 img {
   z-index: 1; 
