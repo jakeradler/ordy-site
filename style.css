@@ -105,7 +105,7 @@ h2 {
   position: fixed;
   top: 66%;
   left: 50%;
-
+  transform: translate(-50%, -50%);
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
