@@ -103,12 +103,17 @@ h2 {
   width: 50px;
   z-index: 1; 
   position: fixed;
+  top: 66%;
+  left: 50%;
 
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
   z-index: 1; 
   position: fixed;
+  top: 68%;
+  left: 50%;
+
 }
 .referralLinkField--text {
   color: #000000;
