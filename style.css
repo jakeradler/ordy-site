@@ -99,6 +99,7 @@ h2 {
 }
 .button--waitlistapi {
   background-color: #000000;
+  width: 50px;
   z-index: 1; 
   position: fixed;
   top: 52%;
