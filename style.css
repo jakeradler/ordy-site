@@ -37,8 +37,8 @@ img {
 h2 {
   z-index: 1; 
   position: fixed;
-  top: 50%;
-  left: 10%;
+  top: 80%;
+  left: 5%;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
