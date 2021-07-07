@@ -49,10 +49,14 @@ h2 {
 .twitter-link {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
+  top: 92%;
+  left: 99%;
 }
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
+  top: 92%;
+  left: 99%;
 }
 a {
   background-color: transparent;
@@ -64,9 +68,13 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  top: 92%;
+  left: 99%;
 }
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
   text-decoration: underline;
+  top: 92%;
+  left: 99%;
 }
