@@ -94,27 +94,14 @@ h2 {
   background-color: #ffffff;
   z-index: 1; 
   position: fixed;
-  top: 65%;
-  left: 50%;
-  width: 600px;
-  height: 150px;
-  transform: translate(-50%, -50%);
 }
 .button--waitlistapi {
   background-color: #000000;
-  width: 50px;
-  height: 50px;
   z-index: 1; 
   position: fixed;
-  top: 68%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
   z-index: 1; 
   position: fixed;
-  top: 70%;
-  left: 50%;
-
 }
