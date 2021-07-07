@@ -37,11 +37,11 @@ img {
 h2 {
   z-index: 1; 
   position: fixed;
-  top: 95%;
+  top: 92%;
   left: 1%;
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.01em;
