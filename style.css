@@ -43,7 +43,6 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 1;
 }
 
 .registration-form {
@@ -96,7 +95,6 @@ body {
   z-index: 2;
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in;
-  z-index: 1;
 }
 .registration-form .input-section.folded {
   width: 95%;
@@ -107,11 +105,9 @@ body {
 }
 .registration-form .input-section.folded input {
   background-color: #e9e2c0;
-  z-index: 1;
 }
 .registration-form .input-section.folded span {
   background-color: #e9e2c0;
-  z-index: 1;
 }
 .registration-form .input-section.folded + .folded {
   width: 90%;
@@ -122,15 +118,12 @@ body {
 }
 .registration-form .input-section.folded + .folded input {
   background-color: #e1bcef;
-  z-index: 1;
 }
 .registration-form .input-section.folded + .folded span {
   background-color: #e1bcef;
-  z-index: 1;
 }
 .registration-form .input-section.fold-up {
   margin-top: -75px;
-  z-index: 1;
 }
 .registration-form form input {
   background: white;
@@ -139,32 +132,26 @@ body {
   border: 0;
   padding: 20px 40px;
   margin: 0;
-  z-index: 1;
 }
 .registration-form form input:focus {
   outline: none;
-  z-index: 1;
 }
 .registration-form form input::-moz-placeholder {
   color: #8f8fd6;
   font-weight: 100;
-  z-index: 1;
 }
 .registration-form form input:-ms-input-placeholder {
   color: #8f8fd6;
   font-weight: 100;
-  z-index: 1;
 }
 .registration-form form input::placeholder {
   color: #8f8fd6;
   font-weight: 100;
-  z-index: 1;
 }
 
 .animated-button {
   width: 20%;
   background-color: #d4d4ff;
-  z-index: 1;
 }
 .animated-button span {
   display: flex;
@@ -175,12 +162,10 @@ body {
   text-align: center;
   height: 75px;
   transition: all 0.2s ease-in;
-  z-index: 1;
 }
 .animated-button span i {
   font-size: 25px;
   color: #9999f8;
-  z-index: 1;
 }
 .animated-button .next-button {
   background: transparent;
@@ -188,12 +173,10 @@ body {
   font-weight: 100;
   width: 100%;
   border: 0;
-  z-index: 1;
 }
 
 .next {
   margin-top: -75px;
-  z-index: 1;
 }
 
 .success {
@@ -211,7 +194,6 @@ body {
   transition: all 0.2s ease-in;
   background: limegreen;
   margin-top: -75px;
-  z-index: 1;
 }
 .success p {
   color: white;
@@ -220,5 +202,4 @@ body {
   font-size: 18px;
   width: 100%;
   text-align: center;
-  z-index: 1;
 }
