@@ -90,25 +90,15 @@ h2 {
   left: 99%;
 }
 .container--waitlistapi {
+  margin: 0 auto; 
   background-color: #ffffff;
-  z-index: 1;
-  position: fixed;
-  top: 70%;
-  left: 50%;
-
 }
 .button--waitlistapi {
   background-color: #000000;
-  position: fixed;
-  z-index: 1;
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
-  position: fixed;
-  z-index: 1;
 }
 .referralLinkField--text {
   color: #000000;
-  position: fixed;
-  z-index: 1;
 }
