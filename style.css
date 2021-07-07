@@ -92,6 +92,7 @@ h2 {
 .container--waitlistapi {
   margin: 0 auto; 
   background-color: #ffffff;
+  z-index: 1;
 }
 .button--waitlistapi {
   background-color: #000000;
