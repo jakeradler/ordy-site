@@ -37,8 +37,10 @@ h1 {
 .image-2 {
   width: 40px;
   z-index: 1;
+  position: fixed;
   top: 50%;
-  left: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 h2 {
   z-index: 1; 
@@ -55,15 +57,19 @@ h2 {
 .twitter-link {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
+  position: fixed;
   top: 50%;
-  left: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
+  position: fixed;
   top: 50%;
-  left: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 .a {
