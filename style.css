@@ -101,10 +101,13 @@ h2 {
 }
 .button--waitlistapi {
   background-color: #000000;
+  z-index: 1;
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
+  z-index: 1;
 }
 .referralLinkField--text {
   color: #000000;
+  z-index: 1;
 }
