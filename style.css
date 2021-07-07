@@ -94,8 +94,6 @@ h2 {
   background-color: #ffffff;
   z-index: 1; 
   position: fixed;
-  top: 50%;
-  left: 50%;
 }
 .button--waitlistapi {
   background-color: #000000;
