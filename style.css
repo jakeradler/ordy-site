@@ -94,20 +94,28 @@ h2 {
   background-color: #ffffff;
   z-index: 1; 
   position: fixed;
+  top: 50%;
+  left: 50%;
 }
 .button--waitlistapi {
   background-color: #000000;
   z-index: 1; 
   position: fixed;
+  top: 52%;
+  left: 50%;
 }
 .statusTextContainer--waitlistapi {
   color: #000000;
   z-index: 1; 
   position: fixed;
+  top: 54%;
+  left: 50%;
 }
 .referralLinkField--text {
   color: #000000;
   z-index: 1; 
+  top: 50%;
+  left: 50%;
 }
 .Signup {
   position: fixed;
