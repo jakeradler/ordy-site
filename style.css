@@ -52,6 +52,7 @@ body {
   transform: translate(-50%, 0%);
   top: 15%;
   background: transparent;
+  z-index: 1;
 }
 .registration-form header {
   position: relative;
