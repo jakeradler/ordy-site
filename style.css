@@ -90,13 +90,11 @@ h2 {
   left: 99%;
 }
 .container--waitlistapi {
-  margin: 0 auto; 
   background-color: #ffffff;
   z-index: 1;
   position: fixed;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
 
 }
 .button--waitlistapi {
