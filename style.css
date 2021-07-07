@@ -38,7 +38,7 @@ h1 {
   width: 40px;
   z-index: 1;
   position: fixed;
-  top: 92%;
+  top: 94%;
   left: 97%;
 }
 h2 {
@@ -57,7 +57,7 @@ h2 {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   position: fixed;
-  top: 92%;
+  top: 94%;
   left: 97%;
   z-index: 1;
 }
@@ -65,7 +65,7 @@ h2 {
   max-width: 100%;
   display: inline-block;
   position: fixed;
-  top: 92%;
+  top: 94%;
   left: 97%;
   z-index: 1;
 }
