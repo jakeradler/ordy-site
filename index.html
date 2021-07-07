@@ -14,16 +14,6 @@
       div {
         text-align: center;
       }
-      .container--waitlistapi {
-        position: fixed;
-        margin: 0 auto;
-        top: 65%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        width: 400px;
-        height: 150px;
-      }
     </style>
   </head>
   <body>
@@ -33,7 +23,6 @@
         <title>Ordy</title>
       </head>
       <body>
-        <div id="root"></div>
         <h1>Invest in Crypto Smarter.</h1>
         <canvas
           id="gradient-canvas"
@@ -41,15 +30,7 @@
           data-transition-in
         ></canvas>
         <img src="outline2.png" alt="Outline-Ordy" width="500" height="600" />
-        <script
-          src="https://unpkg.com/waitlistapi/dist/widget.js"
-          id="Waitlist-API-Script"
-          data-config="{
-		'name': 'w1', 
-		'api_key': '{YOUR API KEY}', 
-	  'waitlist_link': '{YOUR WAITLIST LINK}',
-	  'config': {'targetElementId': 'root'}
-        ></script>
+        
       </body>
     </html>
     <!-- partial -->
