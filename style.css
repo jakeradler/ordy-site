@@ -39,7 +39,7 @@ h1 {
   z-index: 1;
   position: fixed;
   top: 92%;
-  left: 1%;
+  left: 99%;
 }
 h2 {
   z-index: 1; 
@@ -57,18 +57,16 @@ h2 {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 92%;
+  left: 99%;
   z-index: 1;
 }
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 92%;
+  left: 99%;
   z-index: 1;
 }
 .a {
