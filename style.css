@@ -46,39 +46,27 @@ h2 {
   line-height: 1.25;
   letter-spacing: -0.01em;
 }
-.social-top {
-  float: right;
+.twitter-link {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+a {
+  background-color: transparent;
   z-index: 1;
-  position: fixed;
-  top: 40%;
-  left: 50%;
+  top: 92%;
+  left: 99%;
 }
-
-.social-top li {
-
-display: inline-block;
-width: 40px;
-height: 40px;
-background-color: #ccc;
-border-radius: 150px;
-z-index: 1;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.social-top li.twitter:hover {
-  background-color: #060;
-  z-index: 1;
-
-}
-
-.social-top li:hover a {
-  color: #fff;
-  z-index: 1;
-}
-
-.social-top a {
-display: block;
-line-height: 40px;
-text-align: center;
-width: 100%;
-height: 100%;
-z-index: 1;
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
