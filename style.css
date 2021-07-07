@@ -46,3 +46,24 @@ h2 {
   line-height: 1.25;
   letter-spacing: -0.01em;
 }
+.twitter-link {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+a {
+  background-color: transparent;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
