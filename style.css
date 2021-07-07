@@ -96,7 +96,7 @@ h2 {
   position: fixed;
   top: 65%;
   left: 50%;
-  width: 50px;
+  width: 200px;
   transform: translate(-50%, -50%);
 }
 .button--waitlistapi {
