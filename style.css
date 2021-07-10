@@ -12,6 +12,56 @@ html,body {
   --gradient-color-3: #8C82FF;  
   --gradient-color-4: #EFAFFF;
 }
+
+@media only screen and (min-device-width: 480px){
+  h1{
+  z-index: 1; 
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  }
+  h2{
+  z-index: 1; 
+  position: fixed;
+  top: 92%;
+  left: 1%;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  }
+}
+@media only screen and (min-device-width: 768px){
+  h1{
+  z-index: 1; 
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  }
+  .image-2 {
+    width: 30px;
+    z-index: 1;
+    position: fixed;
+    top: 93%;
+    left: 93%;
+  }
+}
 h1 {
   z-index: 1; 
   position: fixed;
