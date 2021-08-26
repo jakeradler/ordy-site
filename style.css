@@ -73,6 +73,7 @@ h1 {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.25;
+  width: 800px;
   letter-spacing: -0.01em;
 }
 .image-1 {
@@ -154,4 +155,33 @@ h2 {
   color: #000000;
   z-index: 1; 
   position: fixed;
+}
+.emailbox{
+  border-radius: 15px;
+  border: 1px solid transparent;
+  background: #fff;
+  display: flex;
+  width: 290px;
+  height: 50px;
+  float: right;
+  padding: 15px;
+  margin-bottom: 8px;
+}
+.button-submit{
+  background: #000;
+  color: #fff;
+  padding: 10px 76px;
+  border-radius: 15px;
+  font-weight: 500;
+  font-size: inherit;
+  margin-top: 13px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  align-items: center;
+}
+.button-submit:hover{
+  background-color: transparent;
+  border-color: #000000;
+  transition: all 0.1s ease-in-out;
+  color: black;
 }
